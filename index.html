@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- header with jumbotron -->
     <header>
         <div class="jumbotron">
             <div>
@@ -22,11 +23,12 @@
             </div>
         </div>
     </header>
+    <!-- search card and form -->
     <main class="container-fluid">
         <div class=row>
             <section class="col-md-3 pl-2">
                 <div class="card" style="width: 22rem;">
-                    <div class="card-body">
+                    <div class="card-body1">
                         <h4>City Search:</h4>
                         <form class="form-inline">
                             <div class="form-group">
@@ -37,25 +39,28 @@
                         </form>
                     </div>
                 </div>
+                <!-- list of cities -->
                 <div>
                 <ul id="city-list" class="list-group"></ul>
                 </div>
                 <button id="clear-button" class="btn btn-primary">Clear</button>
             </section>
+            <!-- card with city name, weather and icon -->
             <section class="col-md-9">
                 <div id="current-weather" class='card'>
-                    <div class="card-body">
+                    <div class="card-body2">
                         <div id="city-date-icon">
                             <span id='city-name'>
                             </span>
                             <span id='current-icon'></span>
                         </div>
-                        <p class="card-text" id="current-temp"></p>
-                        <p class="card-text" id="current-humidity"></p>
-                        <p class="card-text" id="current-wind"></p>
-                        <p class="card-text" id="current-uv"></p>
+                        <p class="card-text1" id="current-temp"></p>
+                        <p class="card-text1" id="current-humidity"></p>
+                        <p class="card-text1" id="current-wind"></p>
+                        <p class="card-text1" id="current-uv"></p>
                     </div>
                 </div>
+                <!-- cards displaying forecast -->
                 <div class="row">
                     <div id="forecast-weather" class="col-md-12">
                         <h3> 5 DAY FORECAST:</h3>
@@ -116,5 +121,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>

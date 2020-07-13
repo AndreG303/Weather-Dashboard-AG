@@ -1,9 +1,13 @@
 # Weather-Dashboard-AG
-# 06 Server-Side APIs: Weather Dashboard
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+A weather-dashboard application retrieving data from a third party API (openWeather API), using HTML, CSS and Jquery. I used localStorage to store any persistent data.
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+
+Link:
+
+![Screen Shot 2020-07-13 at 6 50 02 PM](https://user-images.githubusercontent.com/65183415/87361237-c5c43780-c539-11ea-9b57-25be063e313d.png)
+
+
 
 ## User Story
 
@@ -30,18 +34,29 @@ THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 ```
+## Features
+```
+UV Index information based on the UV Index value. Being exposed to strong ultraviolet rays for extended periods of time can be dangerous, causing sunburn and possibly skin cancer. The colors are depicted as follows:
 
-The following image demonstrates the application functionality:
+Green - UVI under 3 (1-2), no protection advised.
+Yellow - UVI under 6 (3-6), protection advised.
+Orange - UVI under 8 (6-7), protection advised.
+Red - UVI under 11 (8-10), protection strongly advised.
+Purple - UVI 11+, protection strongly advised.
+```
+## Technology
+```
+HTML
+CSS
+JavaScript
+JQuery
+bootstrap
+Moment.js
+Open Weather Api
+```
+## Resources
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+OpenWeather API documentation,
+Moments.js documentation, 
+W3 Schools,
+Stack Overflow.
