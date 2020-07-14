@@ -3,7 +3,7 @@
 A weather-dashboard application retrieving data from a third party API (openWeather API), using HTML, CSS and Jquery. I used localStorage to store any persistent data.
 
 
-Link:
+Link: https://andreg303.github.io/Weather-Dashboard-AG/index.html
 
 ![Screen Shot 2020-07-13 at 6 50 02 PM](https://user-images.githubusercontent.com/65183415/87361237-c5c43780-c539-11ea-9b57-25be063e313d.png)
 
