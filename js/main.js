@@ -73,7 +73,6 @@ $(document).ready(function() {
         uvIndexDisplay.attr("class", "btn btn-primary");
         $("#current-uv").text("UV Index: ");
         $("#current-uv").append(uvIndexDisplay.text(uvIndex[0].value));
-        console.log(uvIndex[0].value);
         // change the colors of uv index
         if ((uvIndex[0].value) < 3) {
           $(uvIndexDisplay).css("background-color", "green");

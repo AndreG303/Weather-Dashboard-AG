@@ -3,10 +3,11 @@ body {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   background-image: url("../images/IMG_6168.JPG");
   background-repeat: no-repeat;
   background-size:cover;
+  background-attachment:fixed;
 }
 
 .jumbotron {
